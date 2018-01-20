@@ -9,7 +9,7 @@ export class WeatherService {
 
   url;
   constructor(public http: Http) {
-    this.url = 'http://api.openweathermap.org/data/2.5/forecast?q=';
+    this.url = 'https://api.openweathermap.org/data/2.5/forecast?q=';
 
   }
 
