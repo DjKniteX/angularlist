@@ -15,7 +15,7 @@ export class WeatherService {
 
 
   getWeather(city, code) {
-    return this.http.get(this.url + city + ',' + code + '&APPID=' + this.apiKey).map( res => res.json());
+    return this.http.get(this.url + city + ',' + code + '&units=imperial&APPID=' + this.apiKey).map( res => res.json());
 
   }
 
